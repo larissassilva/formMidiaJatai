@@ -1,0 +1,140 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;  
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);  
+  background-color: #161b1e; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #171b1e , #000000);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+    
+}
+
+/*
+ * Header
+ */
+.logo{
+  padding-top: 10px;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, 0.8);
+}
+.f{
+  left: calc(-50vw + 50%);
+  right: calc(-50vw + 50%);
+  margin:0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  bottom:0%;
+  /*position: fixed;*/
+
+}
+
+/*
+ * Form
+ */
+::placeholder {
+  color: rgb(0, 0, 0, 0.8);
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+  color: rgb(0, 0, 0, 0.8);
+}
+ label{
+  font: 18px;
+  flex-grow: 0;
+  margin-left: 10px;
+ }
+
+ @media only screen and (max-width: 800px){
+  .logoCel{
+    width:60%;    
+  }
+  
+ }
+
+
+.modal-color{
+  color: #fff;  
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);  
+  background-color: #005393; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #2cb2f9 , #005393);
+  background-repeat: no-repeat;
+} 
+
+@media only screen and (min-width: 1200px){
+    .modal-personalizado {
+        min-width: 1000px;
+        margin-left: calc(-30vw + 30%);
+        margin-right: calc(-30vw + 30%);
+    }  
+    
+    #nome, #telefone, #whatsapp, #email, #empresa_negocio, 
+    #cargo, #site_atual, #responsivo, #segmento_atuacao, #slogan,
+    #historico_empresa, #como_vende, #experiencia_googleads,
+    #midias_anunciou, #orcamento_medio, #prazo_esperado, 
+    #expectativa, #divulgar_prod_serv, #pontos_prod_serv,
+    #reputacao_prod_serv, #diferenciais, #porque_prod_serv,
+    #publico_alvo, #concorrentes, #regiao_anuncio, 
+    #horario_anuncio, #campanha_sazonais, #ajuste_site,
+    #obs_adicional {
+        width: 950px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+  #nome, #telefone, #whatsapp, #email, #empresa_negocio, 
+  #cargo, #site_atual, #responsivo, #segmento_atuacao, #slogan,
+  #historico_empresa, #como_vende, #experiencia_googleads,
+  #midias_anunciou, #orcamento_medio, #prazo_esperado, 
+  #expectativa, #divulgar_prod_serv, #pontos_prod_serv,
+  #reputacao_prod_serv, #diferenciais, #porque_prod_serv,
+  #publico_alvo, #concorrentes, #regiao_anuncio, 
+  #horario_anuncio, #campanha_sazonais, #ajuste_site,
+  #obs_adicional {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 1199px){
+  #nome, #telefone, #whatsapp, #email, #empresa_negocio, 
+  #cargo, #site_atual, #responsivo, #segmento_atuacao, #slogan,
+  #historico_empresa, #como_vende, #experiencia_googleads,
+  #midias_anunciou, #orcamento_medio, #prazo_esperado, 
+  #expectativa, #divulgar_prod_serv, #pontos_prod_serv,
+  #reputacao_prod_serv, #diferenciais, #porque_prod_serv,
+  #publico_alvo, #concorrentes, #regiao_anuncio, 
+  #horario_anuncio, #campanha_sazonais, #ajuste_site,
+  #obs_adicional {
+    width: 900px;
+  }
+}
+
+
